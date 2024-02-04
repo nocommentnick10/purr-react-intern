@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+
+    background-color: #181818;
+
+    font-family: 'Outfit Regular';
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #ffffff;
+}
+
+.container {
+    min-width: 343px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+a {
+    color: #ffffff;
+}

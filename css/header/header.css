@@ -1,0 +1,27 @@
+.header {
+    padding: 15px 0px 15px;
+    margin-bottom: 51px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.logo img {
+    padding-left: 8px;
+}
+
+.logo__text {
+    font-family: 'Outfit SemiBold';
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+}
