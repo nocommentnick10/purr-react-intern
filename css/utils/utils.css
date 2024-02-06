@@ -1,7 +1,26 @@
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.logo img {
+    padding-left: 8px;
+}
+
+.logo__text {
+    font-family: 'Outfit SemiBold';
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+}
+
 .cta-btn {
     display: block;
 
-    padding: 16px 110px;
+    /* padding: 16px 110px; */
+    padding: 16px 0px;
+    width: 100%;
 
     background-color: #954ced;
 
@@ -23,4 +42,99 @@
     left: -19px;
 
     z-index: -9;
+}
+
+.heading {
+    font-family: 'Outfit Bold', sans-serif;
+    line-height: 106%;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.heading_lg {
+    font-size: 40px;
+}
+
+.heading_md {
+    font-size: 32px;
+
+    text-transform: capitalize;
+}
+
+.highlight-text {
+    position: relative;
+}
+
+.highlight-text::after {
+    content: '';
+
+    display: block;
+    position: absolute;
+
+    width: 233.93px;
+    height: 22.19px;
+
+    left: 0%;
+    right: 0.46%;
+    top: 23.21%;
+    bottom: 0.28%;
+
+    transform: rotate(-1.65deg);
+
+    border-radius: 30px; 
+    
+    background-color: #a64ced;
+
+    z-index: -9;
+}
+
+.bg-holder {
+    display: flex;
+    column-gap: 20px;
+
+    position: absolute;
+
+    z-index: -9;
+}
+
+.bg-holder_top {
+    left: -160px;
+    right: -261px;
+    top: 101px;
+    bottom: 388px;
+}
+
+.bg-holder_mid {
+    left: -272px;
+    right: -557px;
+    top: 245px;
+    bottom: 244px;
+}
+
+.bg-holder_btm {
+    left: -261px;
+    right: -160px;
+    top: 389px;
+    bottom: 100px;
+}
+
+.bg-text {
+    font-size: 48px;
+}
+
+.bg-text_top {
+    color: #2fdbbc;
+}
+
+.bg-text_mid {
+    color: #a64ced;
+}
+
+.bg-text_btm {
+    color: #ffaa4c;
+}
+
+.underline {
+    margin-bottom: -29px;
+    border: 1px solid rgb(68, 68, 68);  
 }

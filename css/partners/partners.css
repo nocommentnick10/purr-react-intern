@@ -1,0 +1,13 @@
+.partners {
+    padding: 50px 0px 90px;
+
+    background-color: #ffffff;
+}
+
+.partners__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 30px;
+}

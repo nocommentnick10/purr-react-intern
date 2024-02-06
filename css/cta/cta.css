@@ -1,0 +1,20 @@
+.cta {
+    padding: 40px 0px;
+
+    background-color: #ffffff;
+}
+
+.cta__wrapper {
+    padding: 40px 20px;
+
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 60px; 
+
+    text-align: center;
+}
+
+.cta__wrapper h2 {
+    margin-bottom: 40px;
+    
+    color: #000000;
+}

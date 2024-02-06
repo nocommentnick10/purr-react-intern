@@ -9,18 +9,8 @@
     row-gap: 124px;
 }
 
-.hero__cta {
-
-}
-
 .hero__cta h1 {
     margin-bottom: 20px;
-
-    font-family: 'Outfit Bold', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 106%;
-    letter-spacing: 0px;
 }
 
 .hero__cta p {
