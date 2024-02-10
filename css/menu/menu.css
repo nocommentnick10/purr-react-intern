@@ -1,0 +1,37 @@
+.menu {
+    position: fixed;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 15px 16px;
+
+    background-color: #181818;
+
+    z-index: 999;
+}
+
+.menu__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__wrapper .cta-btn {
+    width: 182px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    margin-top: 177px;
+}
+
+.menu__item {
+    font-size: 20px;
+}
+
+.menu__item a {
+    text-transform: capitalize;
+}

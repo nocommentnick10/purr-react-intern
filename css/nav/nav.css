@@ -1,0 +1,40 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    background-color: #ffaa4c;
+}
+
+.tabs__item {
+    padding: 9px 40px 9px 40px;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tabs__item_active {
+    background-color: #181818;
+}
+
+.tabs__link {
+    font-weight: 500;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.tabs__link_active {
+    color: #ffffff;
+}
+
+/* Media */
+
+@media (min-width: 992px) {
+    .nav {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Media */

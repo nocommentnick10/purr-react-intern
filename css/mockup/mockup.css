@@ -1,0 +1,11 @@
+.mockup {
+    position: relative;
+
+    padding-bottom: 79px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    z-index: 9;
+}

@@ -1,0 +1,35 @@
+.cta {
+    padding: 40px 0px;
+
+    background-color: #ffffff;
+}
+
+.cta__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+
+    padding: 40px 20px;
+
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 60px; 
+
+    text-align: center;
+}
+
+.cta__wrapper h2 {
+    color: #000000;
+}
+
+/* Media */
+
+@media (min-width: 992px) {
+    
+    .cta {
+        padding: 100px 0px;
+    }
+    
+}
+
+/* Media */
