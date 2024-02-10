@@ -26,3 +26,15 @@
 .tabs__link_active {
     color: #ffffff;
 }
+
+/* Media */
+
+@media (min-width: 992px) {
+    .nav {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Media */

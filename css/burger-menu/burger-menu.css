@@ -34,3 +34,11 @@
 .burger-menu__line::after {
     top: 18px;
 }
+
+/* Media */
+
+@media (min-width: 992px) {
+    .burger-menu {
+        display: none;
+    }
+}

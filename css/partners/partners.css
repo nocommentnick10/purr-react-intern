@@ -11,3 +11,17 @@
     column-gap: 40px;
     row-gap: 30px;
 }
+
+/* Media */
+
+@media (min-width: 992px) {
+
+    .partners {
+        padding-bottom: 100px;
+    }
+    
+    .partners__wrapper {
+        justify-content: center;
+    }
+
+}

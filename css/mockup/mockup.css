@@ -1,11 +1,11 @@
 .mockup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     position: relative;
+
+    padding-bottom: 79px;
+
+    text-align: center;
 
     overflow: hidden;
 
-    margin-bottom: 79px;
+    z-index: 9;
 }

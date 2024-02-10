@@ -1,6 +1,13 @@
 .header {
+    position: sticky;
+
+    top: 0;
+
     padding: 15px 0px 15px;
-    margin-bottom: 51px;
+
+    background-color: #181818;
+
+    z-index: 99;
 }
 
 .header__wrapper {
@@ -8,3 +15,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Media */
+
+@media (min-width: 992px) {
+
+    .header {
+        padding: 11px 0px 11px;
+    }
+    
+}
+
+/* Media */
