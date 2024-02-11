@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLider</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./fonts/outfit/style.css">
+    <!-- Fonts -->
+
+    <!-- Core Css styles -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Core Css styles -->
+
+    <!-- Slider Css styles -->
+    <link rel="stylesheet" href="./css/slider/slider.css">
+    <!-- Slider Css styles -->
+
+</head>
+<body>
+    
+    <div class="slider">
+        <div class="slider__row">
+            <button id="prevBtn" class="slider__ctrl">
+                Prev
+            </button>
+            <div class="slider__list">
+                <div class="slider__wrapper">
+                    <img src="https://placehold.jp/3d4070/ffffff/450x300.png" alt="Slide 1">
+                    <img src="https://placehold.jp/ffaa00/ffffff/450x300.png" alt="Slide 2">
+                    <img src="https://placehold.jp/669c35/ffffff/450x300.png" alt="Slide 3">
+                    <img src="https://placehold.jp/be38f3/ffffff/450x300.png" alt="Slide 4">
+                    <img src="https://placehold.jp/ff4013/ffffff/450x300.png" alt="Slide 5">
+                </div>
+            </div>
+            <button id="nextBtn" class="slider__ctrl">
+                Next
+            </button>
+        </div>
+        <div class="slider__row">
+            <button class="slider__nav slider__nav_active" data-nav="1">1</button>
+            <button class="slider__nav" data-nav="2">2</button>
+            <button class="slider__nav" data-nav="3">3</button>
+            <button class="slider__nav" data-nav="4">4</button>
+            <button class="slider__nav" data-nav="5">5</button>
+        </div>
+    </div>
+
+    <!-- Slider scripts -->
+    <script src="./js/slider/slider.js"></script>
+    <!-- Slider scripts -->
+
+</body>
+</html>
