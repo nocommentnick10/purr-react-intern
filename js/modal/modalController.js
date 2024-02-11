@@ -96,5 +96,5 @@ view.uiEls.modalSuccessBtn.addEventListener('click', (e) => {
 })
 
 document.addEventListener('click', (e) => {
-    if (e.target.hasAttribute('data-modal')) formCtrl.closeModal(e)
+    if (e.target.hasAttribute('data-modal') && !e.target.classList.contains('modal-cookie')) formCtrl.closeModal(e)
 })
